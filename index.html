@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social media dashboard</title>
+    <link rel="stylesheet" href="sstyle.css">
+   <!-- <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="bootstrap/popper.min.js"></script>-->
+    <script src="script.js"></script>
+</head>
+<body  class="body">
+    <div class="container">
+        <div class="header">
+          <div class="box">
+            <div class="content" id="content"> 
+                <h3>
+                  Social Media Dashboard
+                </h3>
+                <p>
+                    Total Followers: 23,004
+                </p>
+
+            </div>
+                <div class="content" id="switch">
+                    <div id="light">
+                        <label for="switch">light mode</label>
+
+                        <svg onclick="light()"  xmlns="http://www.w3.org/2000/svg" width="45" height="40" viewBox="0 0 512 512"><title>ionicons-v5-k</title><circle cx="368" cy="256" r="128" style="fill:hsl(300, 3%, 6%);stroke:#000;stroke-linejoin:round;stroke-width:32px"/><rect x="16" y="128" width="480" height="256" rx="128" ry="128" style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"/></svg>
+                    </div>
+                    <div id="dark">
+                        <label for="switch">Dark mode</label>
+
+                        <svg onclick="dark()" xmlns="http://www.w3.org/2000/svg" width="45" height="40" viewBox="0 0 512 512"><title>ionicons-v5-k</title><path d="M368,112H144a144,144,0,0,0,0,288H368a144,144,0,0,0,0-288Zm0,230a86,86,0,1,1,86-86A85.88,85.88,0,0,1,368,342Z"/></svg> 
+                    </div>  </div>
+        </div>
+        <div class="section-one">
+            <div class="pack">
+                <div class="one">
+                    <img src="icon-facebook.svg" alt="">   @nathanf
+
+                </div>
+                <div class="two">
+                    1987
+                </div>
+                <div class="three">
+                    Followers
+                </div>
+                <div class="four">
+                    <img src="icon-up.svg" alt="">  12 Today
+
+                </div>
+            </div>
+            <div class="pack-one">
+                    <div class="one">
+                        <img src="icon-twitter.svg" alt="">   @nathanf
+    
+                    </div>
+                    <div class="two-one">
+                        1044
+                    </div>
+                    <div class="three">
+                        Followers
+                    </div>
+                    <div class="four">
+                        <img src="icon-up.svg" alt="">  99 Today
+    
+                    </div>
+            </div>
+            <div class="pack-two" style="border-top: .4rem solid hsl(3, 80%, 56%);">
+                <div class="one"  style="font-size: small;">
+                    <img src="icon-instagram.svg" alt="">   @realnathanf
+
+                </div>
+                <div class="two-two">
+                    11k
+                </div>
+                <div class="three">
+                    Followers
+                </div>
+                <div class="four">
+                    <img src="icon-up.svg" alt="">  1099 Today
+
+                </div>
+            </div>
+            <div class="pack-three"  style="border-top: .4rem solid hsl(356, 69%, 56%);">
+                <div class="one">
+                    <img src="icon-youtube.svg" alt="">  Nathan F.
+
+                </div>
+                <div class="two-three">
+                    8239
+                </div>
+                <div class="three">
+                    subcribers
+                </div>
+                <div class="four">
+                    <img src="icon-down.svg" alt="">  144 Today
+
+                </div>
+            </div>
+        </div>
+        <div class="content-one" id="content-two"> 
+            <h3>
+                Overview - Today
+             </h3>
+        </div>
+        <div class="section-two">
+          
+                <div class="box-one">
+                    <div>
+                        Page views
+                        <p><img src="icon-facebook.svg" alt=""></p>
+                    </div>
+                    <div>
+                        <span style="color: black;font-size: 3rem;">87</span>
+                        <p style="color: hsl(163, 72%, 41%)k;padding-top: 1.5rem;"><img src="icon-up.svg" alt="">3%</p>
+                    </div>
+                </div>
+                <div class="box-two">
+                    <div>
+                        Likes
+                        <p><img src="icon-facebook.svg" alt=""></p>
+                    </div>
+                    <div>
+                        <span style="color: black;font-size: 3rem;font-weight: 600;">52</span>
+                        <p style="color: rgb(230, 20, 20);padding-top: 1.5rem;"><img src="icon-down.svg" alt="">3%</p>
+                    </div>
+                </div>
+                <div class="box-three">
+                    <div>
+                        Likes
+                        <p><img src="icon-instagram.svg" alt=""></p>
+                    </div>
+                    <div>
+                        <span style="color: black;font-size: 3rem;">5462</span>
+                        <p style="color: hsl(163, 72%, 41%);padding-top: 1.5rem;"><img src="icon-up.svg" alt="">+3%</p>
+                    </div>
+                </div>
+                <div class="box-four">
+                    <div>
+                        Profile view
+                        <p><img src="icon-instagram.svg" alt=""></p>
+                    </div>
+                    <div>
+                        <span style="color: black;font-size: 3rem;">53K</span>
+                        <p style="color:hsl(163, 72%, 41%);padding-top: 1.5rem;"><img src="icon-up.svg" alt="">+1375%</p>
+                    </div>
+                </div>
+                <div class="box-five">
+                    <div>
+                        Retweet
+                        <p><img src="icon-twitter.svg" alt=""></p>
+                    </div>
+                    <div>
+                        <span style="color: black;font-size: 3rem;">4677</span>
+                        <p style="color:hsl(163, 72%, 41%);padding-top: 1.5rem;"><img src="icon-up.svg" alt="">23%</p>
+                    </div>
+                </div>
+                <div class="box-six">
+                    <div>
+                        Likes
+                        <p><img src="icon-twitter.svg" alt=""></p>
+                    </div>
+                    <div>
+                        <span style="color: black;font-size: 3rem;">507</span>
+                        <p style="color: hsl(163, 72%, 41%);padding-top: 1.5rem;"><img src="icon-up.svg" alt="">553%</p>
+                    </div>
+                </div>
+                <div class="box-seven">
+                    <div>
+                        Likes
+                        <p><img src="icon-youtube.svg" alt=""></p>
+                    </div>
+                    <div>
+                        <span style="color: black;font-size: 3rem;">107</span>
+                        <p style="color:hsl(163, 72%, 41%);padding-top: 1.5rem;"><img src="icon-down.svg" alt="">19%</p>
+                    </div>
+                </div>
+                <div class="box-eight ">
+                    <div>
+                        Total view
+                        <p><img src="icon-youtube.svg" alt=""></p>
+                    </div>
+                    <div>
+                        <span style="color: black;font-size: 3rem;">1407</span>
+                        <p style="color: hsl(163, 72%, 41%)black;padding-top: 1.5rem;"><img src="icon-down.svg" alt="">12%</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+
+    
+</body>
+</html>
